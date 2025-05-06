@@ -37,7 +37,7 @@ This is the simple design decisions
 Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
 
 ```bash
-git clone https://github.com/Gurkaran017/InsightTrack.git
+git clone https://github.com/tarunmittal/Insight_Track.git
 npm install 
 cd insighttrack/client
 npm run dev
