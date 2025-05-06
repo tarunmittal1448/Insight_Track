@@ -39,7 +39,7 @@ Detailed instructions on how to install, configure, and get the project running.
 ```bash
 git clone https://github.com/tarunmittal/Insight_Track.git
 npm install 
-cd insighttrack/client
+cd Insight_Track/client
 npm run dev
 cd ../server
 npm install
