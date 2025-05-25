@@ -14,7 +14,7 @@ const useSignup = () => {
         try {
             setError(null);
             setLoading(true);
-            const res = await fetch("http://localhost:3000/api/auth/signup", {
+            const res = await fetch("https://insight-track.onrender.com/api/auth/signup", {
                 method: 'POST',
                 headers: {
                     'Content-Type': "application/json",

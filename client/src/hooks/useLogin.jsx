@@ -11,14 +11,14 @@ const useLogin = () => {
         try {
             setError(null);
             setLoading(true);
-            const res = await fetch("http://localhost:3000/api/auth/login", {
+            const res = await fetch("https://insight-track.onrender.com/api/auth/login", {
                 method: 'POST',
                 headers: {
                     'Content-Type': "application/json",
                 },
                 body: JSON.stringify(values),
             });
-            console.log(fetch("http://localhost:3000/api/auth/login").then((res)=>console.log(res)));
+            console.log(fetch("https://insight-track.onrender.com/api/auth/login").then((res)=>console.log(res)));
             const data = await res.json();
             if (res.status === 200) {
                 message.success(data.message);

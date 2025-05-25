@@ -7,7 +7,11 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 app.use(express.json());
-app.use(cors());
+
+app.use(cors({
+    credentials:true,
+    origin:"https://insight-track.onrender.com"
+    }))
 
 app.use("/api/auth", router);
 
